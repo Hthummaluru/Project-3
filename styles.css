@@ -1,0 +1,346 @@
+header
+{
+font-family:sans-serif;  
+background-color:#ccbf98;
+color:black;
+padding: 10px;    
+text-align: left;
+
+}
+
+section
+{
+    height: 550px;
+    text-align: center;
+    padding: 10px;
+    color:#3333ff;
+    background-color:white;
+}
+
+
+footer
+{
+    text-align: center;
+    padding: 10px;
+    height: 30px;
+    background-color:#cc0033;
+    color:wheat;
+    
+}
+
+nav
+{
+    text-align: left;
+}
+nav ul{
+    list-style-type: none;
+   display:inline-block;
+   margin-right: 100px
+}
+li{
+    display:inline-block;
+    margin-right: 20px;
+        
+}
+#navbarUl
+{
+    color:green;
+    
+}
+#homePic
+{
+ padding-top: 50px;
+    width: 300px;
+    height:300px;
+}
+
+form{
+    margin-top: 7em;
+    padding: 40px;
+    
+}
+
+
+ label
+{
+   
+    width: 12em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    padding-top: 0.25em; 
+    margin-left: 24.5em;
+    display:inline;
+    float:left;
+    text-align: right;
+}
+
+ input[type="text"], input[type="email"],input[type="password"] ,input[type="file"]{  /* An attribute selector */
+    width: 20em;
+   height:1.5em;
+    margin-left: 0.5em;    
+    margin-bottom: 1.5em;
+    display:inline;
+    float:left;
+}
+section input[type="submit"] {
+    margin-left: 0.5em;
+    background-color:background;
+    width:9em;
+    height:3em;
+    color:white;
+   
+    float:left;
+    
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+a:hover {
+    background-color:red;
+}
+
+a:active {
+    background-color:blueviolet
+}
+
+
+
+span
+{
+ font-weight: bold;
+    color:black;
+   
+    
+}
+
+.pageText
+{
+  
+border:2px background solid;
+text-align: left;
+margin-right: 350px;
+margin-top: 100px;
+color: black;
+padding: 10px;
+float:right;
+}
+
+ 
+
+#sidebarA { 
+    
+    width: 180px; 
+    float: left; 
+    height: 400px;
+    
+    margin-top: 50px;
+   
+    
+}
+
+
+
+#sidebarA nav li
+{
+    width: 180px;
+    border: 1px background solid;
+    background-color: lightblue;
+    float: left;
+    height: 30px;
+    text-align:left;
+    padding-bottom: 10px;
+    margin: 1px;
+}
+
+.textAreaLen input[type="text"]
+{
+
+
+    height: 30em;
+}
+
+
+.textDisplay
+{
+ text-align: left;
+ margin: 0;
+ color: black;
+ float:left;
+ display: block;
+ background-color:#cccccc;
+ border:5px;
+ padding: 3px;
+ padding-left: 20px;
+ padding-right: 20px;
+ font-size: 20px;
+}
+.backTextDisplay{
+    text-align: right;
+    float: right;
+    color:black;
+    font-size: 20px;
+}
+
+.sentMsg
+{
+   text-align: center;
+   color: black;
+   margin: 275px;
+   font-weight: bold;
+   
+}
+.textItalic
+{
+    font-style: italic;
+    font-weight: bold;
+    color:black;
+}
+br{
+    clear:both;
+}
+#textAdd
+{
+    float:left;
+    text-align: left;
+    margin: 10px;
+    clear:both;
+    font-size: 20px;
+}
+
+
+#studyTable tr:nth-child(even) {
+    background-color: #fff;
+}
+#studyTable tr:nth-child(odd) {
+   background-color:#eee;
+}
+#studyTable th	{
+    background-color: black;
+    color: white;
+}
+.partTable tr:nth-child(even) {
+    background-color: #fff;
+}
+.partTable tr:nth-child(odd) {
+   background-color:#eee;
+}
+.partTable th	{
+    background-color: black;
+    color: white;
+}
+.partTable{
+    width:150%;
+    text-align: center;
+}
+
+table {
+    width:70%;
+    float: left;
+    margin-left: 60px;
+    position: relative;
+    top: 80px;
+    right: 30px;
+}
+th{
+    height: 40px;
+}
+td{
+    height: 40px;
+}
+
+.formTable{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.formTable input[type="sumbit"]
+{
+    margin-left:0em;
+    background-color:gainsboro;
+    width:7em;
+    height:1.5em;
+    color:white;
+   text-align: center;
+   float:none;
+   alignment-adjust: central;
+    
+}
+
+#imgQuestion
+{
+ 
+    margin-top: 50px;
+    float:left;
+}
+#questionText
+{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    color:black;
+}
+
+#questionForm
+{
+    margin:0px;
+     margin-top: 0em;
+    padding: 0px;
+}
+#inputSubmit
+{
+    margin-left: 20em;
+    background-color:background;
+    width:9em;
+    height:3em;
+    color:white;
+   
+    float:none;
+}
+section h6{
+    border: 0px;
+    padding:0px;
+    margin:0px;
+}
+ .flright1{
+    position: relative;
+    left: 15%;
+    width: 40%;
+    top: 60%;
+    bottom:30%;
+}
+
+a.style{
+    font-style: italic;
+    text-decoration: underline;
+    color: blue;
+}
+.flleft{
+    float: left;
+}
+.marg{
+    margin-left: 9px;
+}
+.img{
+    float:left;
+    margin-left: 9px;
+    width:150px;
+    height:90px;
+    margin-bottom: 10px;
+}
+
+.pagealign{
+text-align: left;
+margin-right: 550px;
+margin-top: 50px;
+color: black;
+float:right;
+}
+
